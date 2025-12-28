@@ -2,6 +2,10 @@
 
 This project is a minimal, production-ready calendar management system built to demonstrate **correctness, clean system design, and proper timezone handling**. The focus is on backend logic, conflict detection, and time correctness rather than UI polish.
 
+## Demo Video 
+https://drive.google.com/file/d/1ghKkgt1xWVLb7eJjVjeTQPMoqMymTl6y/view?usp=drive_link
+
+
 ## What I Built
 
 I built a single-user calendar system that supports:
