@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  padding: 20px;
+}
+
+.week-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.create-btn {
+  margin-left: auto;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day-column {
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  min-height: 300px;
+}
+
+.day-title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.event-card {
+  background: #e8f0fe;
+  padding: 6px;
+  margin-bottom: 6px;
+  border-left: 4px solid #1a73e8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.actions button {
+  margin-left: 4px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 100px auto;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
